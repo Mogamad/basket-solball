@@ -24536,10 +24536,10 @@ cr.behaviors.solid = function(runtime)
 	behaviorProto.acts = new Acts();
 }());
 cr.getObjectRefTable = function () { return [
+	cr.plugins_.Mouse,
 	cr.plugins_.Keyboard,
 	cr.plugins_.Audio,
 	cr.plugins_.Browser,
-	cr.plugins_.Mouse,
 	cr.plugins_.Sprite,
 	cr.plugins_.Text,
 	cr.plugins_.TiledBg,
